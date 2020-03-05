@@ -1,0 +1,17 @@
+{
+  "name": "ngx-translate-action",
+  "version": "0.0.1",
+  "description": "GitHub action to extract strings from your Angular using @ngx-translate and translate them using Google Cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad Vidac",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/exec": "^1.0.3",
+    "@google-cloud/translate": "^5.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
